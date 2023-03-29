@@ -7,3 +7,6 @@ function handleInputChange(event) {
   const fontSize = event.target.value + 'px';
   text.style.fontSize = fontSize;
 }
+
+const initialFontSize = input.value + 'px';
+text.style.fontSize = initialFontSize;
